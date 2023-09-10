@@ -9,5 +9,6 @@
 </head>
 <body>
     <h2> Welcome </h2>
+    <a href="signout.php"> Sign out </a>
 </body>
 </html>
