@@ -52,6 +52,6 @@ if(isset($_POST["submit"])){
         <button type="submit" name="submit"> Sign up </button>
     </form>
     <br>
-    <a href="signin.php">Sign in </a>
+    <a href="signin.php"> Sign in </a>
 </body>
 </html>

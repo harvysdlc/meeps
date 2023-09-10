@@ -1,3 +1,30 @@
+<?php
+require 'config.php';
+
+if(isset($_POST["submit"])){
+    $usernameoremail = $_POST["usernameoremail"];
+    $password = $_POST["password"];
+    $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$usernameoremail' OR email = '$usernameoremail'");
+    $row = mysqli_fetch_assoc($result);
+    if(mysqli_num_rows($result) > 0){
+        if($password == $row["password"]){
+            $_SESSION["signin"] == true;
+            $_SESSION["id"] == $row["id"];
+            header("Location: index.php");
+        }
+        else{
+            echo
+            "<script> alert('Wrong Password!'); </script>";
+        }
+    }
+
+    else{
+        echo
+            "<script> alert('Account Not Found'); </script>";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +35,15 @@
     <link rel="icon" type="image/png" href="../meeps/images/logo.png">
 </head>
 <body>
-    
+    <h2> Sign in </h2>
+    <form class="" action="" method="post" autocomplete="off">
+        <label for="usernameoremail"> Username or Email: </label>
+        <input type="text" name="usernameoremail" id="usernameoremail" required value=""> <br>
+        <label for="password"> Password: </label>
+        <input type="text" name="password" id="password" required value=""> <br>
+        <button type="submit" name="submit"> Sign in </button>
+    </form>
+    <br>
+    <a href="signup.php"> Sign up </a>
 </body>
 </html>
