@@ -8,6 +8,6 @@
     <link rel="icon" type="image/png" href="../meeps/images/logo.png">
 </head>
 <body>
-    
+    <h2> Welcome </h2>
 </body>
 </html>
