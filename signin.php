@@ -8,7 +8,7 @@ if(isset($_POST["submit"])){
     $row = mysqli_fetch_assoc($result);
     if(mysqli_num_rows($result) > 0){
         if($password == $row["password"]){
-            $_SESSION["signin"] == true;
+            $_SESSION["login"] == true;
             $_SESSION["id"] == $row["id"];
             header("Location: index.php");
         }
