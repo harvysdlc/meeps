@@ -14,7 +14,7 @@ if(isset($_POST["submit"])){
     }
     else{
         if($password == $confirmpassword){
-            $query = "INSERT INTO tb_user VALUES ('', '$name', '$username', '$email', '$passsword')";
+            $query = "INSERT INTO tb_user VALUES ('', '$name', '$username', '$email', '$password')";
             mysqli_query($conn, $query);
             echo
             "<script> alert('Account Sign up Complete!'); </script>";
