@@ -52,3 +52,14 @@ body {
 	top: 45%;
 	right: 8%;
 }
+
+.signup{
+    position:fixed; 
+	top: 45%;
+	right: 8%;
+}
+
+.signup a{
+    position:fixed; 
+	text-decoration: none;
+}

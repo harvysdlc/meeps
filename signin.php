@@ -40,8 +40,6 @@ if(isset($_POST["submit"])){
     <div class="rectangle"></div>
     <div class="logo"> <img src="../meeps/images/logo.png"> </div>
     <div class="meepsdotcom"> <img src="../meeps/images/meepsdotcom.png"> </div>
-    <h2> Sign in </h2>
-    </div>
     <div class="signin">
     <form class="" action="" method="post" autocomplete="off">
         <label for="usernameoremail"> Username or Email: </label>
@@ -52,6 +50,8 @@ if(isset($_POST["submit"])){
     </form>
     </div>
     <br>
+    <div class="signup">
     <a href="signup.php"> Sign up </a>
+    </div>
 </body>
 </html>
