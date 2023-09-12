@@ -53,6 +53,10 @@ body {
 	right: 23%;
 }
 
+.signin ::placeholder{
+    color: var(--dark);
+}
+
 .signin input{
     width: 170%;
     padding: 1rem 1rem;
