@@ -58,7 +58,7 @@ body {
 }
 
 .signin input{
-    width: 170%;
+    width: 185%;
     padding: 1rem 1rem;
     background-color: var(--light);
     border-style: none;
