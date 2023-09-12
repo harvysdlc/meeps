@@ -54,8 +54,8 @@ body {
 }
 
 .signin input{
-    width: 170;
-    color: var(--light); 
+    width: 170%;
+    color: var(--light);
 }
 
 .promo{
