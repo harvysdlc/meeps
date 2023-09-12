@@ -65,7 +65,7 @@ body {
 }
 
 .signin .submitbtn button{
-    width: 180%;
+    width: 190%;
     padding: 1rem 1rem;
     background-color: var(--dark);
     color: var(--white);
