@@ -42,10 +42,8 @@ if(isset($_POST["submit"])){
     <div class="meepsdotcom"> <img src="../meeps/images/meepsdotcom.png"> </div>
     <div class="signin">
     <form class="" action="" method="post" autocomplete="off">
-        <label for="usernameoremail"> Username or Email: </label>
         <input type="text" name="usernameoremail" id="usernameoremail" placeholder="Username or Email" value=""> <br>
-        <label for="password"> Password: </label>
-        <input type="text" name="password" id="password" required value=""> <br>
+        <input type="text" name="password" id="password" placeholder="Password" required value=""> <br>
         <button type="submit" name="submit"> Sign in </button>
     </form>
     </div>
