@@ -75,7 +75,7 @@ body {
 }
 
 .signin .submitbtn button :hover{
-    color: var(--white);
+    background-color: var(--light);
 }
 
 .promo{
