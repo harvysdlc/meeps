@@ -103,6 +103,14 @@ body {
 	right: 8%;
 }
 
+.signup p{
+    right: 2%;
+    position:fixed; 
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
 .signup a{
     position:fixed; 
 	text-decoration: none;
