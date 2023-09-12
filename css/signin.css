@@ -49,9 +49,12 @@ body {
 
 .signin{
     position:fixed; 
-    width: 35%;
 	top: 45%;
 	right: 8%;
+}
+
+.signin input{
+    width: 40%;
 }
 
 .promo{
