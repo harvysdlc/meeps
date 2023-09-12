@@ -19,3 +19,16 @@ body {
     height:60%;
     background:var(--white);
 }
+
+.logo{
+    width: 50%;
+	transition: 1s;
+	top: 25%;
+	left: 20%;
+	position: absolute;
+}
+
+.logo img{
+    display: block;
+	width:30%;
+}
