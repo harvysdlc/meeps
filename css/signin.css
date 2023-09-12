@@ -51,6 +51,7 @@ body {
     position:fixed; 
 	top: 45%;
 	right: 23%;
+    color: var(--light);
 }
 
 .signin input{
