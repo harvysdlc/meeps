@@ -11,8 +11,8 @@ body {
     overflow: hidden;
 }
 
-#rectangle{
-    position: absolute;
+.rectangle{
+    position:fixed; 
 	top: 20%;
 	left: 0%;
     width:200px;
