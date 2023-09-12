@@ -66,13 +66,13 @@ body {
 
 .submitbtn button{
     width: 100%;
-    padding: 1rem 5rem;
+    padding: 1rem 1rem;
     background-color: var(--dark);
     color: var(--white);
     font-weight: bold;
     border-style: none;
     display: absolute;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 
 .signin .submitbtn button :hover{
