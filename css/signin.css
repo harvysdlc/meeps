@@ -69,7 +69,7 @@ body {
     padding: 1rem 1rem;
     background-color: var(--dark);
     color: var(--white);
-    font-size: larger;
+    font-weight: bold;
     border-style: none;
     display: absolute;
 }
