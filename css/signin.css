@@ -53,6 +53,19 @@ body {
 	right: 8%;
 }
 
+.promo{
+    width: 70%;
+	transition: 1s;
+	top: 30%;
+	left: 5%;
+	position: absolute;
+}
+
+.promo img{
+    display: block;
+	width:70%;
+}
+
 .signup{
     position:fixed; 
 	top: 80%;

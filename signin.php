@@ -49,6 +49,7 @@ if(isset($_POST["submit"])){
         <button type="submit" name="submit"> Sign in </button>
     </form>
     </div>
+    <div class="promo"> <img src="../meeps/images/promowhite.png"> </div>
     <br>
     <div class="signup">
     <a href="signup.php"> Sign up </a>
