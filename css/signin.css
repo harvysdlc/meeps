@@ -64,6 +64,13 @@ body {
     border-style: none;
 }
 
+.signin .submitbtn{
+    width: 170%;
+    padding: 1rem 1rem;
+    background-color: var(--dark);
+    border-style: none;
+}
+
 .promo{
     width: 71%;
 	transition: 1s;
