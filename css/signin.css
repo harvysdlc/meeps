@@ -50,12 +50,11 @@ body {
 .signin{
     position:fixed; 
 	top: 45%;
-	right: 8%;
+	right: 15%;
 }
 
 .signin input{
     width: 150%;
-    height: 20%;
 }
 
 .promo{
