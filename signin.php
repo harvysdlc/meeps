@@ -52,8 +52,10 @@ if(isset($_POST["submit"])){
     <div class="promo"> <img src="../meeps/images/promowhite.png"> </div>
     <br>
     <div class="signup">
-        <p>Don't have an account?</p>
         <a href="signup.php"> Sign up </a>
+    </div>
+    <div class="text">
+        <p>Don't have an account?</p>
     </div>
 </body>
 </html>

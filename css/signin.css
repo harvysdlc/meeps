@@ -103,17 +103,22 @@ body {
 	right: 18%;
 }
 
-.signup p{
-    right: 20%;
-    position:fixed; 
-	text-decoration: none;
-    font-family: Arial, sans-serif;
-    color: black;
-}
-
 .signup a{
     position:fixed; 
 	text-decoration: none; 
     font-family: Arial, sans-serif;
     color: var(--dark);
+}
+
+.text{
+    position:fixed; 
+	top: 76%;
+	right: 15%;
+}
+
+.text p{
+    position:fixed; 
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: black;
 }
