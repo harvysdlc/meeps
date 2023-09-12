@@ -54,16 +54,16 @@ body {
 }
 
 .promo{
-    width: 80%;
+    width: 75%;
 	transition: 1s;
-	top: 5%;
+	top: 1%;
 	left: 5%;
 	position: absolute;
 }
 
 .promo img{
     display: block;
-	width: 80%;
+	width: 75%;
 }
 
 .signup{
