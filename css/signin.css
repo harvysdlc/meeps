@@ -51,11 +51,8 @@ body {
     position:fixed; 
 	top: 45%;
 	right: 15%;
-    width: 20%;
-}
-
-.signin input{
-    width: 170%;
+    width: 25%;
+    color: var(--light);
 }
 
 .promo{
