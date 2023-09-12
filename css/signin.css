@@ -99,7 +99,7 @@ body {
 
 .signup{
     position:fixed; 
-	top: 80%;
+	top: 70%;
 	right: 18%;
 }
 
@@ -113,7 +113,7 @@ body {
 
 .signup a{
     position:fixed; 
-	text-decoration: none;
+	text-decoration: none; 
     font-family: Arial, sans-serif;
-    color: black;
+    color: var(--dark);
 }
