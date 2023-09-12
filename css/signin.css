@@ -66,12 +66,12 @@ body {
 
 .submitbtn {
     position:fixed; 
-	top: 70%;
+	top: 60%;
 	right: 23%; 
 }
 
 .submitbtn button{
-    width: 100%;
+    width: 150%;
     padding: 1rem 1rem;
     background-color: var(--dark);
     color: var(--white);
