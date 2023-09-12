@@ -23,7 +23,7 @@ body {
 .logo{
     width: 40%;
 	transition: 1s;
-	top: 25%;
+	top: 20%;
 	right: -5%;
 	position: absolute;
 }
