@@ -57,6 +57,7 @@ body {
     width: 170%;
     padding: 1rem 1rem;
     background-color: var(--light);
+    border-color: var(--light);
 }
 
 .promo{
