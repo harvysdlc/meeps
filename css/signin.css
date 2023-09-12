@@ -74,6 +74,10 @@ body {
     display: absolute;
 }
 
+.signin .submitbtn button :hover{
+    color: var(--white);
+}
+
 .promo{
     width: 71%;
 	transition: 1s;
