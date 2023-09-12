@@ -12,10 +12,10 @@ body {
 }
 
 .rectangle{
-    position:relative; 
+    position:absolute; 
 	top: 20%;
 	left: 0%;
-    width:10rem;
-    height:10rem;
+    width:80rem;
+    height:60rem;
     background:var(--white);
 }
