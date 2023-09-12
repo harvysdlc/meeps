@@ -35,16 +35,16 @@ body {
 }
 
 .meepsdotcom{
-    width: 40%;
+    width: 60%;
 	transition: 1s;
 	top: 23%;
-	right: -20%;
+	right: -15%;
 	position: absolute;
 }
 
 .meepsdotcom img{
     display: block;
-	width:30%;
+	width:60%;
 }
 
 .signin{
