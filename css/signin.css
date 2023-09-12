@@ -49,6 +49,7 @@ body {
 
 .signin{
     position:fixed; 
+    width: 35%;
 	top: 45%;
 	right: 8%;
 }
