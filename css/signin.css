@@ -21,7 +21,7 @@ body {
 }
 
 .logo{
-    width: 50%;
+    width: 30%;
 	transition: 1s;
 	top: 25%;
 	right: -5%;
@@ -30,5 +30,5 @@ body {
 
 .logo img{
     display: block;
-	width:30%;
+	width:20%;
 }
