@@ -71,7 +71,7 @@ body {
 }
 
 .submitbtn button{
-    width: 80%;
+    width: 100%;
     padding: 1rem 1rem;
     background-color: var(--dark);
     color: var(--white);
