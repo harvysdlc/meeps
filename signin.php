@@ -37,6 +37,7 @@ if(isset($_POST["submit"])){
     <link rel="icon" type="image/png" href="../meeps/images/logo.png">
 </head>
 <body>
+    <div class="rectangle"></div>
     <h2> Sign in </h2>
     <form class="" action="" method="post" autocomplete="off">
         <label for="usernameoremail"> Username or Email: </label>
