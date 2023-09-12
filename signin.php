@@ -39,6 +39,7 @@ if(isset($_POST["submit"])){
 <body>
     <div class="rectangle"></div>
     <div class="logo"> <img src="../meeps/images/logo.png"> </div>
+    <div class="meepsdotcom"> <img src="../meeps/images/meepsdotcom.png"> </div>
     <h2> Sign in </h2>
     </div>
     <form class="" action="" method="post" autocomplete="off">
