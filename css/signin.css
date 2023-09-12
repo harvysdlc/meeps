@@ -35,7 +35,7 @@ body {
 }
 
 .meepsdotcom{
-    width: 45%;
+    width: 40%;
 	transition: 1s;
 	top: 23%;
 	right: -15%;
@@ -44,7 +44,7 @@ body {
 
 .meepsdotcom img{
     display: block;
-	width: 45%;
+	width: 40%;
 }
 
 .signin{
