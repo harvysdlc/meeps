@@ -21,19 +21,6 @@ body {
     z-index: -1;
 }
 
-.logo{
-    width: 40%;
-	transition: 1s;
-	top: 17%;
-	right: -1%;
-	position: absolute;
-}
-
-.logo img{
-    display: block;
-	width:30%;
-}
-
 .meepsdotcom{
     width: 40%;
 	transition: 1s;
