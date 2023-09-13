@@ -37,7 +37,7 @@ body {
 .signup{
     position:fixed; 
 	top: 18%;
-	right: 25%;
+	right: 23%;
 }
 
 .signup ::placeholder{
@@ -54,7 +54,7 @@ body {
 .submitbtn {
     position:fixed; 
 	top: 70%;
-	right: 23%; 
+	right: 25%; 
 }
 
 .submitbtn button{
