@@ -31,7 +31,6 @@ body {
 
 .meepsdotcom img{
     display: block;
-    background-color: var(--white);
 	width: 50%;
 }
 
