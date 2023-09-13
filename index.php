@@ -21,7 +21,11 @@ else{
 </head>
 <body>
     <div class="rectangle"> </div>
-    <h2> Welcome <?php echo $row["username"]; ?> </h2>
-    <a href="signout.php"> Sign out </a>
+    <div class="welcome">
+        <h2> Welcome <?php echo $row["username"]; ?> </h2>
+    </div>
+    <div class="signout">
+        <a href="signout.php"> Sign out </a>
+    </div>
 </body>
 </html>

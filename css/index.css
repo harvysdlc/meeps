@@ -18,3 +18,29 @@ body {
     height:80%;
     background:var(--dark);
 }
+
+.welcome{
+    position:fixed; 
+	top: 78%;
+	right: 33%;
+}
+
+.welcome h2{
+    position:fixed; 
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.signout{ 
+    position:fixed; 
+	top: 80.4%;
+	right: 20%;
+}
+
+.signout a{
+    position:fixed; 
+	text-decoration: none; 
+    font-family: Arial, sans-serif;
+    color: var(--dark);
+}
