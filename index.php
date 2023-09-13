@@ -20,6 +20,7 @@ else{
     <link rel="icon" type="image/png" href="../meeps/images/logo.png">
 </head>
 <body>
+    <div class="rectangle"> </div>
     <h2> Welcome <?php echo $row["username"]; ?> </h2>
     <a href="signout.php"> Sign out </a>
 </body>
