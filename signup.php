@@ -54,7 +54,7 @@ if(isset($_POST["submit"])){
             </div>
         </form>
     </div>
-    <div class="promo"> <img src="../meeps/images/promowhite.png"> </div>
+    <div class="promo"> <img src="../meeps/images/promodarkblue.png"> </div>
     <br>
     <div class="signin">
         <a href="signin.php"> Sign in </a>
