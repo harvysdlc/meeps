@@ -17,5 +17,4 @@ body {
     width:30%;
     height:80%;
     background:var(--dark);
-    z-index: -1;
 }
