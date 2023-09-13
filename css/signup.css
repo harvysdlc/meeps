@@ -104,3 +104,28 @@ body {
     -webkit-user-drag: none;
 }
 
+.signin{
+    position:fixed; 
+	top: 78.4%;
+	right: 20%;
+}
+
+.signin a{
+    position:fixed; 
+	text-decoration: none; 
+    font-family: Arial, sans-serif;
+    color: var(--dark);
+}
+
+.text{
+    position:fixed; 
+	top: 76%;
+	right: 33%;
+}
+
+.text p{
+    position:fixed; 
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: black;
+}

@@ -60,7 +60,7 @@ if(isset($_POST["submit"])){
         <a href="signin.php"> Sign in </a>
     </div>
     <div class="text">
-        <p>Don't have an account?</p>
+        <p>Open an existing account?</p>
     </div>
 </body>
 </html>
