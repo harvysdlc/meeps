@@ -83,3 +83,24 @@ body {
 .signup .submitbtn button :hover{
     background: var(--light);
 }
+
+.promo{
+    width: 71%;
+	transition: 1s;
+	top: -4.8%;
+	left: 4%;
+	position: absolute;
+}
+
+.promo img{
+    display: block;
+	width: 71%;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-drag: none;
+    -khtml-user-drag: none;
+    -webkit-user-drag: none;
+}
+
