@@ -58,7 +58,7 @@ body {
 }
 
 .signup input{
-    width: 185%;
+    width: 75%;
     padding: 1rem 1rem;
     background-color: var(--light);
     border-style: none;
