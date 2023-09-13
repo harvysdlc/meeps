@@ -40,7 +40,7 @@ if(isset($_POST["submit"])){
 </head>
 <body>
     <div class="rectangle"></div>
-    <div class="meepsdotcom"> <img src="../meeps/images/meepsdotcom.png"> </div>
+    <div class="meepsdotcom"> <img src="../meeps/images/meepsdotcomwhite.png"> </div>
     <div class="signup">
         <form class="" action="" method="post" autocomplete="off">
             <input type="text" name="name" id="name" placeholder="name" required value=""> <br><br>
