@@ -46,3 +46,40 @@ body {
     display: block;
 	width: 40%;
 }
+
+.signup{
+    position:fixed; 
+	top: 45%;
+	right: 23%;
+}
+
+.signup ::placeholder{
+    color: var(--dark);
+}
+
+.signup input{
+    width: 185%;
+    padding: 1rem 1rem;
+    background-color: var(--light);
+    border-style: none;
+}
+
+.submitbtn {
+    position:fixed; 
+	top: 65%;
+	right: 23%; 
+}
+
+.submitbtn button{
+    width: 150%;
+    padding: 1rem 1rem;
+    background-color: var(--dark);
+    color: var(--white);
+    font-weight: bold;
+    border-style: none;
+    display: absolute;
+}
+
+.signup .submitbtn button :hover{
+    background: var(--light);
+}
