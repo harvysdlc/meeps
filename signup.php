@@ -39,21 +39,28 @@ if(isset($_POST["submit"])){
     <link rel="icon" type="image/png" href="../meeps/images/logo.png">
 </head>
 <body>
-    <h2> Signup </h2>
-    <form class="" action="" method="post" autocomplete="off">
-        <label for="name"> Name: </label>
-        <input type="text" name="name" id="name" required value=""> <br>
-        <label for="username"> Userame: </label>
-        <input type="text" name="username" id="username" required value=""> <br>
-        <label for="email"> Email: </label>
-        <input type="text" name="email" id="email" required value=""> <br>
-        <label for="password"> Password: </label>
-        <input type="text" name="password" id="password" required value=""> <br>
-        <label for="confirmpassword"> Confirm Password: </label>
-        <input type="password" name="confirmpassword" id="confirmpassword" required value=""> <br>
-        <button type="submit" name="submit"> Sign up </button>
-    </form>
+    <div class="rectangle"></div>
+    <div class="logo"> <img src="../meeps/images/logo.png"> </div>
+    <div class="meepsdotcom"> <img src="../meeps/images/meepsdotcom.png"> </div>
+    <div class="signup">
+        <form class="" action="" method="post" autocomplete="off">
+            <input type="text" name="name" id="name" placeholder="name" required value=""> <br>
+            <input type="text" name="username" id="username" placeholder="username" required value=""> <br>
+            <input type="text" name="email" id="email" placeholder="email" value=""> <br>
+            <input type="text" name="password" id="password" placeholder="password" value=""> <br>
+            <input type="password" name="confirmpassword" id="confirmpassword" placeholder="confirm password" required value=""> <br>
+            <div class="submitbtn">
+                <button type="submit" name="submit"> Sign up </button>
+            </div>
+        </form>
+    </div>
+    <div class="promo"> <img src="../meeps/images/promowhite.png"> </div>
     <br>
-    <a href="signin.php"> Sign in </a>
+    <div class="signin">
+        <a href="signin.php"> Sign in </a>
+    </div>
+    <div class="text">
+        <p>Don't have an account?</p>
+    </div>
 </body>
 </html>
