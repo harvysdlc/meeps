@@ -44,7 +44,7 @@ if(isset($_POST["submit"])){
     <div class="meepsdotcom"> <img src="../meeps/images/meepsdotcom.png"> </div>
     <div class="signup">
         <form class="" action="" method="post" autocomplete="off">
-            <input type="text" name="name" id="name" placeholder="name" required value=""> 
+            <input type="text" name="name" id="name" placeholder="name" required value=""> <br><br>
             <input type="text" name="username" id="username" placeholder="username" required value=""> <br><br>
             <input type="text" name="email" id="email" placeholder="email" value=""> <br><br>
             <input type="text" name="password" id="password" placeholder="password" value=""> <br><br>
@@ -60,7 +60,7 @@ if(isset($_POST["submit"])){
         <a href="signin.php"> Sign in </a>
     </div>
     <div class="text">
-        <p>Open an existing account?</p>
+        <p>Open existing account?</p>
     </div>
 </body>
 </html>
