@@ -49,14 +49,14 @@ if(isset($_POST["submit"])){
             <input type="text" name="password" id="password" placeholder="password" value=""> <br><br>
             <input type="password" name="confirmpassword" id="confirmpassword" placeholder="confirm password" required value=""> <br><br>
             <div class="submitbtn">
-                <button type="submit" name="submit"> Sign up </button>
+                <button type="submit" name="submit"> sign up </button>
             </div>
         </form>
     </div>
     <div class="promo"> <img src="../meeps/images/promolightblue.png"> </div>
     <br>
     <div class="signin">
-        <a href="signin.php"> sign in </a>
+        <a href="signin.php"> Sign in </a>
     </div>
     <div class="text">
         <p>Open existing account?</p>
