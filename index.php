@@ -29,7 +29,7 @@ else{
         <button onclick="window.location.href=''">Profile</button>
     </div>
     <div class="logo">
-        <img src="../meeps/images/logo.png">
+        <img src="../meeps/images/logowhite.png">
     </div>
     <div class="welcome">
         <h2> Welcome <?php echo $row["username"]; ?> </h2>
