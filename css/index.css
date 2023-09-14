@@ -79,12 +79,13 @@ body {
 .signout{ 
     position:fixed; 
 	top: 80.4%;
-	right: 20%;
+	left: 2.5%;
 }
 
 .signout a{
     position:fixed; 
 	text-decoration: none; 
     font-family: Arial, sans-serif;
-    color: var(--dark);
+    font-weight: bold;
+    color: var(--light);
 }
