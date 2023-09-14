@@ -37,6 +37,9 @@ else{
     <div class="signout">
         <a href="signout.php"> Sign out </a>
     </div>
+    <div class="triangle">
+        <img src="../meeps/images/triangle.png">
+    </div>
     <div class="grayrectangle"> </div>
 </body>
 </html>
