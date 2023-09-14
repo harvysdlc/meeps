@@ -1,5 +1,5 @@
 <?php
-require '..meeps/config.php';
+require 'config.php';
 if(!empty($_SESSION["id"])){
     $id = $_SESSION["id"];
     $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE id = '$id'");
