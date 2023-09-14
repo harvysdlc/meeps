@@ -21,6 +21,26 @@ body {
     z-index: -1;
 }
 
+.triangle {
+    width: 15%;
+	transition: 1s;
+	top: 35%;
+	left: 8.5%; 
+	position: absolute;
+}
+
+.triangle img{
+    display: block;
+	width: 15%;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-drag: none;
+    -khtml-user-drag: none;
+    -webkit-user-drag: none;
+}
+
 .navigation{
     position: fixed;
     display: grid;
