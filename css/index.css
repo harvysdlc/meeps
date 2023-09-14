@@ -39,6 +39,10 @@ body {
     border-style: none;
 }
 
+.navigation button :nth-child(1){
+	color: var(--light);
+}
+
 .welcome{
     position:fixed; 
 	top: 78%;
