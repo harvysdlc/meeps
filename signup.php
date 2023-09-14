@@ -46,7 +46,7 @@ if(isset($_POST["submit"])){
             <input type="text" name="name" id="name" placeholder="name" required value=""> <br><br>
             <input type="text" name="username" id="username" placeholder="username" required value=""> <br><br>
             <input type="text" name="email" id="email" placeholder="email" value=""> <br><br>
-            <input type="text" name="password" id="password" placeholder="password" value=""> <br><br>
+            <input type="password" name="password" id="password" placeholder="password" value=""> <br><br>
             <input type="password" name="confirmpassword" id="confirmpassword" placeholder="confirm password" required value=""> <br><br>
             <div class="submitbtn">
                 <button type="submit" name="submit"> sign up </button>
