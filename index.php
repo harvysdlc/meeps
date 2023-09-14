@@ -37,5 +37,6 @@ else{
     <div class="signout">
         <a href="signout.php"> Sign out </a>
     </div>
+    <div class="grayrectangle"> </div>
 </body>
 </html>
