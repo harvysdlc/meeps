@@ -39,8 +39,8 @@ body {
     border-style: none;
 }
 
-.navigation button :nth-child(1){
-	background-color: var(--light);
+.navigation :nth-child(1){
+	color: var(--light);
 }
 
 .welcome{
