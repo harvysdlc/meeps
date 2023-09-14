@@ -43,6 +43,26 @@ body {
 	color: var(--white);
 }
 
+.logo {
+    width: 20%;
+	transition: 1s;
+	top: 18%;
+	left: 2%; 
+	position: absolute;
+}
+
+.logo img{
+    display: block;
+	width: 20%;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-drag: none;
+    -khtml-user-drag: none;
+    -webkit-user-drag: none;
+}
+
 .welcome{
     position:fixed; 
 	top: 78%;

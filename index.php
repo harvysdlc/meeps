@@ -28,6 +28,9 @@ else{
         <button onclick="window.location.href=''">Beeps</button>
         <button onclick="window.location.href=''">Profile</button>
     </div>
+    <div class="logo">
+        <img src="../meeps/images/logo.png">
+    </div>
     <div class="welcome">
         <h2> Welcome <?php echo $row["username"]; ?> </h2>
     </div>
