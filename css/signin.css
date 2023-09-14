@@ -22,7 +22,7 @@ body {
 }
 
 .logo{
-    width: 40%;
+    width: 30%;
 	transition: 1s;
 	top: 17%;
 	right: -1%;
@@ -32,8 +32,6 @@ body {
 .logo img{
     display: block;
 	width:30%;
-    display: block;
-	width: 71%;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
@@ -54,8 +52,6 @@ body {
 .meepsdotcom img{
     display: block;
 	width: 40%;
-    display: block;
-	width: 71%;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
