@@ -22,11 +22,11 @@ else{
 <body>
     <div class="rectangle"> </div>
     <div class="navigation">
-        <button onclick="window.location.href='../meeps/index.php'">Home</button>
-        <button onclick="window.location.href=''">Search</button>
-        <button onclick="window.location.href=''">Mutuals</button>
-        <button onclick="window.location.href=''">Beeps</button>
-        <button onclick="window.location.href=''">Profile</button>
+    <button onclick="window.location.href='../meeps/index.php'">Home</button>
+        <button onclick="window.location.href='../meeps/search.php'">Search</button>
+        <button onclick="window.location.href='../meeps/mutuals.php'">Mutuals</button>
+        <button onclick="window.location.href='../meeps/beeps.php'">Beeps</button>
+        <button onclick="window.location.href='../meeps/profile.php'">Profile</button>
     </div>
     <div class="logo">
         <img src="../meeps/images/logowhite.png">
