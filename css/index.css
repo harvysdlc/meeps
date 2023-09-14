@@ -31,7 +31,9 @@ body {
 }
 
 .navigation button{
-    margin-bottom: 30%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 60%;
 }
 
 .welcome{
