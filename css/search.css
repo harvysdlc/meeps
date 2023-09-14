@@ -1,0 +1,102 @@
+:root{
+    --dark: #03989E;
+    --light: #8FF8FC;
+    --white: #ffffff;
+    --gray: #F8F8F8;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.rectangle{
+    position:fixed; 
+	top: 0%;
+	left: 0%;
+    width: 10%;
+    height:100%;
+    background:var(--dark);
+    z-index: -1;
+}
+
+.navigation{
+    position: fixed;
+    display: grid;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    left: 2.5%;
+	top: 30%;
+}
+
+.navigation button{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 90%;
+    background-color: var(--dark);
+    color: var(--light);
+    border-style: none;
+}
+
+.navigation :nth-child(2){
+	color: var(--white);
+}
+
+.logo {
+    width: 25%;
+	transition: 1s;
+	top: 6.5%;
+	left: 2%; 
+	position: absolute;
+}
+
+.logo img{
+    display: block;
+	width: 25%;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-drag: none;
+    -khtml-user-drag: none;
+    -webkit-user-drag: none;
+}
+
+.welcome{
+    position:fixed; 
+	top: 78%;
+	right: 33%;
+}
+
+.welcome h2{
+    position:fixed; 
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.signout{ 
+    position:fixed; 
+	top: 90.4%;
+	left: 2.5%;
+}
+
+.signout a{
+    position:fixed; 
+	text-decoration: none; 
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.grayrectangle{
+    position:fixed; 
+	top: 0%;
+	left: 11%;
+    width: 70%;
+    height:100%;
+    background:var(--gray);
+    z-index: -1;
+}
