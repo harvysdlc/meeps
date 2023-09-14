@@ -24,8 +24,8 @@ body {
 .triangle {
     width: 15%;
 	transition: 1s;
-	top: 31%;
-	left: 8%; 
+	top: 30%;
+	left: 9%; 
 	position: absolute;
 }
 
