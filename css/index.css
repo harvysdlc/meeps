@@ -40,7 +40,7 @@ body {
 }
 
 .navigation button :nth-child(1){
-	color: var(--light);
+	background-color: var(--light);
 }
 
 .welcome{
