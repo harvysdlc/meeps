@@ -30,6 +30,10 @@ body {
 	top:16.5%;
 }
 
+.navigation button{
+    padding-bottom: 5%;
+}
+
 .welcome{
     position:fixed; 
 	top: 78%;
