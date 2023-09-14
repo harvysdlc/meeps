@@ -20,6 +20,15 @@ body {
     z-index: -1;
 }
 
+.navigation{
+    position: fixed;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+	top:16.5%;
+}
+
 .welcome{
     position:fixed; 
 	top: 78%;
