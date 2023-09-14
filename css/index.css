@@ -33,7 +33,7 @@ body {
 .navigation button{
     font-family: Arial, sans-serif;
     font-weight: bold;
-    margin-bottom: 60%;
+    margin-bottom: 90%;
     background-color: var(--dark);
     color: var(--light);
     border-style: none;
