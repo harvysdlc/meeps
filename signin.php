@@ -43,7 +43,7 @@ if(isset($_POST["submit"])){
     <div class="signin">
     <form class="" action="" method="post" autocomplete="off">
         <input type="text" name="usernameoremail" id="usernameoremail" placeholder="username or email" required value=""> <br><br>
-        <input type="text" name="password" id="password" placeholder="password" required value=""> <br><br>
+        <input type="password" name="password" id="password" placeholder="password" required value=""> <br><br>
         <div class="submitbtn">
         <button type="submit" name="submit"> sign in </button>
         </div>
