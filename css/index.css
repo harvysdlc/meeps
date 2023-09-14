@@ -22,7 +22,7 @@ body {
 
 .navigation{
     position: fixed;
-    display: block;
+    display: grid;
     align-items: center;
     justify-content: center;
     width: 100%;
