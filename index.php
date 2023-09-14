@@ -23,7 +23,7 @@ else{
     <div class="rectangle"> </div>
     <div class="navigation">
         <button onclick="window.location.href='../meeps/index.php'">Home</button>
-        <button onclick="window.location.href=''">Search</button>
+        <button onclick="window.location.href='../meeps/registered/search.php'">Search</button>
         <button onclick="window.location.href=''">Mutuals</button>
         <button onclick="window.location.href=''">Beeps</button>
         <button onclick="window.location.href=''">Profile</button>
