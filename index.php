@@ -21,6 +21,9 @@ else{
 </head>
 <body>
     <div class="rectangle"> </div>
+    <div class="navigation">
+        <button onclick="window.location.href='../meeps/index.php'">Home</button>
+    </div>
     <div class="welcome">
         <h2> Welcome <?php echo $row["username"]; ?> </h2>
     </div>
