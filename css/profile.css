@@ -125,8 +125,7 @@ body {
     position:fixed; 
 	top: 5%;
 	left: 25%;
-    width: 15%;
-    z-index: -1;
+    width: 15%; 
 }
 
 .header img{
