@@ -2,8 +2,7 @@
     --dark: #03989E;
     --light: #8FF8FC;
     --white: #ffffff;
-    --gray: #F8F8F8;
-    --grey: #000000;
+    --gray: #F8F8F9;
 }
 
 body {
@@ -118,7 +117,7 @@ body {
 	left: 11%;
     width: 70%;
     height:100%;
-    background:var(--light);
+    background:var(--gray);
     z-index: -1;
 }
 
