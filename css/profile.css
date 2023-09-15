@@ -124,13 +124,13 @@ body {
 .header{
     position:fixed; 
 	top: 5%;
-	left: 25%;
-    width: 100%; 
+	left: 12%;
+    width: 70%; 
 }
 
 .header img{
     display: block;
-	width: 100%;
+	width: 70%;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
