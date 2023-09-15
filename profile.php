@@ -40,9 +40,10 @@ else{
     <div class="triangle">
         <img src="../meeps/images/triangle.png">
     </div>
-    <div class="header">
-        <img src="../meeps/images/upper.png">
+    <div class="grayrectangle"> 
+        <div class="header">
+            <img src="../meeps/images/upper.png">
+        </div>
     </div>
-    <div class="grayrectangle"> </div>
 </body>
 </html>

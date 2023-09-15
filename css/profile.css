@@ -121,14 +121,14 @@ body {
     z-index: -1;
 }
 
-.header{
+.grayrectangle .header{
     position:fixed; 
 	top: 2%;
 	left: 12%;
     width: 82.4%; 
 }
 
-.header img{
+.grayrectangle .header img{
     display: block;
 	width: 82.5%;
     -moz-user-select: none;
