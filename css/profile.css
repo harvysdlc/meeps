@@ -144,9 +144,8 @@ body {
     position:fixed; 
 	top: 15%;
 	left: 15%;
-    width: 10%; 
+    width: 30%; 
     border: #03989E;
-    padding: 1%, 1%, 1%, 1%;
     background-color: var(--dark);
 }
 
