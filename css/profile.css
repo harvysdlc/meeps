@@ -146,7 +146,7 @@ body {
 	left: 15%;
     width: 30%; 
     border: #03989E;
-    background-color: var(--dark);
+    border-color: var(--dark);
 }
 
 .grayrectangle .pfp img{
