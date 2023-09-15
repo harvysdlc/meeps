@@ -167,11 +167,10 @@ body {
     position:fixed; 
 	top: 27%;
 	right: 0%;
-    width: 50%; 
 }
 
 .grayrectangle .edit button{
-    width: 2rem;
+    width: 15rem;
     font-family: Arial, sans-serif;
     font-weight: bold;
     background-color: var(--dark);
