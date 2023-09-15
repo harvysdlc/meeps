@@ -181,10 +181,9 @@ body {
 
 .grayrectangle .divider{
     position:fixed; 
-	top: 90%;
-	left: 15%;
-    width: 85%;
-    height: 10%;
-    color: var(--dark);
-    z-index: 1;
+	top: 40%;
+	left: 11%;
+    width: 70%;
+    height:20%;
+    background:var(--gray);
 }
