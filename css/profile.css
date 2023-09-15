@@ -118,7 +118,7 @@ body {
 	left: 11%;
     width: 70%;
     height:100%;
-    background:var(--grey);
+    background:var(--light);
     z-index: -1;
 }
 
