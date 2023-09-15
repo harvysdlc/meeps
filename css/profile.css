@@ -150,6 +150,7 @@ body {
 .grayrectangle .pfp img{
     display: block;
 	width: 30%;
+    border-style: solid;
     border-image-width: 5%;
     border-color: var(--dark);
     -moz-user-select: none;
