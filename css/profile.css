@@ -170,7 +170,8 @@ body {
 }
 
 .grayrectangle .edit button{
-    width: 15rem;
+    width: 8rem;
+    height: 3rem;
     font-family: Arial, sans-serif;
     font-weight: bold;
     background-color: var(--dark);
