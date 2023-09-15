@@ -151,7 +151,7 @@ body {
     display: block;
 	width: 30%;
     border-style: solid;
-    border-image-width: 5%;
+    border-image-width: 10%;
     border-color: var(--dark);
     -moz-user-select: none;
     -khtml-user-select: none;
