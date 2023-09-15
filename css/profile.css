@@ -145,13 +145,13 @@ body {
 	top: 20%;
 	left: 15%;
     width: 30%; 
-    border-image-width: 5%;
-    border-color: var(--dark);
 }
 
 .grayrectangle .pfp img{
     display: block;
 	width: 30%;
+    border-image-width: 5%;
+    border-color: var(--dark);
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
