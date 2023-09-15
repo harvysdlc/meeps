@@ -50,6 +50,7 @@ else{
         <div class="edit">
             <button onclick="window.location.href=''">Edit profile</button>
         </div>
+        <div class="divider"></div>
     </div>
 </body>
 </html>

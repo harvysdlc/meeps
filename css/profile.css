@@ -178,3 +178,12 @@ body {
     color: var(--white);
     border-style: none;
 }
+
+.grayrectangle .divider{
+    position:fixed; 
+	top: 40%;
+	right: 15%;
+    width: 85%;
+    height: 2%;
+    color: var(--dark);
+}
