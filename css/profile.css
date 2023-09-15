@@ -123,15 +123,15 @@ body {
 
 .header{
     position:fixed; 
-	top: 3%;
-	left: 11%;
-    width: 5%;
+	top: 5%;
+	left: 25%;
+    width: 15%;
     z-index: -1;
 }
 
 .header img{
     display: block;
-	width: 5%;
+	width: 15%;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
