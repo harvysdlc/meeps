@@ -86,15 +86,15 @@ body {
 
 .welcome{
     position:fixed; 
-	top: 28%;
-	left: 20%;
+	top: 29%;
+	left: 30%;
 }
 
 .welcome h2{
     position:fixed; 
 	text-decoration: none;
     font-family: Arial, sans-serif;
-    color: black;
+    color: var(--dark);
 }
 
 .signout{ 
