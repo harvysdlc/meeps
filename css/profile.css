@@ -125,13 +125,12 @@ body {
     position:fixed; 
 	top: 3%;
 	left: 12%;
-    width: 85%;
-    height: 30%; 
+    width: 81%; 
 }
 
 .header img{
     display: block;
-	width: 85%;
+	width: 81%;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
