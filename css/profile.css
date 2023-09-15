@@ -151,8 +151,8 @@ body {
     display: block;
 	width: 30%;
     border-style: solid;
-    border-width: 10%;
-    border-image-width: 20%;
+    border-width: 50%;
+    border-image-width: 50%;
     border-color: var(--dark);
     -moz-user-select: none;
     -khtml-user-select: none;
