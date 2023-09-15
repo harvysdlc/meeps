@@ -145,7 +145,7 @@ body {
 	top: 15%;
 	left: 15%;
     width: 30%; 
-    border: #03989E;
+    border: 2% solid #03989E;
     border-color: var(--dark);
 }
 
