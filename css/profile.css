@@ -186,4 +186,5 @@ body {
     width: 85%;
     height: 10%;
     color: var(--dark);
+    z-index: 1;
 }
