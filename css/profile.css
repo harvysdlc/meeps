@@ -165,7 +165,7 @@ body {
 
 .grayrectangle .edit{
     position:fixed; 
-	top: 27%;
+	top: 29%;
 	right: 20%;
 }
 
@@ -173,7 +173,7 @@ body {
     width: 6.5rem;
     height: 2rem;
     font-family: Arial, sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     background-color: var(--dark);
     color: var(--white);
     border-style: none;
