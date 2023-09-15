@@ -44,6 +44,9 @@ else{
         <div class="header">
             <img src="../meeps/images/upper.png">
         </div>
+        <div class="pfp">
+            <img src="../meeps/images/komsay.jpg">
+        </div>
     </div>
 </body>
 </html>
