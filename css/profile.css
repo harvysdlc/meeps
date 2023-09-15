@@ -120,3 +120,24 @@ body {
     background:var(--gray);
     z-index: -1;
 }
+
+.header{
+    position:fixed; 
+	top: 3%;
+	left: 11%;
+    width: 30%;
+    height:30%;
+    z-index: -1;
+}
+
+.header img{
+    display: block;
+	width: 30%;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-drag: none;
+    -khtml-user-drag: none;
+    -webkit-user-drag: none;
+}
