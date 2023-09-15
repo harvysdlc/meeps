@@ -41,7 +41,7 @@ else{
         <img src="../meeps/images/triangle.png">
     </div>
     <div class="header">
-        <img src="../meeps/images/banner.jpg">
+        <img src="../meeps/images/head.png">
     </div>
     <div class="grayrectangle"> </div>
 </body>
