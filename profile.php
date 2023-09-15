@@ -22,7 +22,7 @@ else{
 <body>
     <div class="rectangle"> </div>
     <div class="navigation">
-    <button onclick="window.location.href='../meeps/index.php'">Home</button>
+        <button onclick="window.location.href='../meeps/index.php'">Home</button>
         <button onclick="window.location.href='../meeps/search.php'">Search</button>
         <button onclick="window.location.href='../meeps/mutuals.php'">Mutuals</button>
         <button onclick="window.location.href='../meeps/beeps.php'">Beeps</button>
@@ -46,6 +46,9 @@ else{
         </div>
         <div class="pfp">
             <img src="../meeps/images/komsay.jpg">
+        </div>
+        <div class="edit">
+            <button onclick="window.location.href=''">Edit profile</button>
         </div>
     </div>
 </body>

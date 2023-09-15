@@ -162,3 +162,18 @@ body {
     -khtml-user-drag: none;
     -webkit-user-drag: none;
 }
+
+.grayrectangle .edit{
+    position:fixed; 
+	top: 18%;
+	right: 5%;
+    width: 40%; 
+}
+
+.grayrectangle .edit button{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-color: var(--dark);
+    color: var(--light);
+    border-style: none;
+}
