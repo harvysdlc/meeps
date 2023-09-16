@@ -62,7 +62,7 @@ $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%
     <div class="results">
         <?php 
         if(isset($_POST['searchbutton'])){
-            $searchresult = mysqli_query($conn, $searchquery);
+            $searchresult = mysqli_query($meeps, $searchquery);
             echo '<table>';
             while($tables = mysqli_fetch_array($searchresult)){
                 echo '<tr>';
