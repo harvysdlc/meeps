@@ -62,7 +62,7 @@ else if(!isset($_POST['searchbutton'])){
     <div class="results">
         <p> <?php 
         echo '<table>';
-        while($table = mysqli_fetch_array($searchresult)){
+        while($table = mysqli_fetch_assoc($searchresult)){
             echo '<tr>';
             echo '<td>';
             echo "{$searchresult["username"]} ({$searchresult['name']})";
