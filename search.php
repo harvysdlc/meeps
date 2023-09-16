@@ -67,7 +67,10 @@ $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%
             while($tables = mysqli_fetch_assoc($searchresult)){
                 echo '<tr>';
                 echo '<td>';
-                echo "{$searchresult["username"]} ({$searchresult['name']})";
+                echo $tables['username'];
+                echo '</td>';
+                echo '<td>';
+                echo $table['name'];
                 echo '</td>';
                 echo '</tr>';
             }
