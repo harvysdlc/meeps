@@ -60,20 +60,19 @@ else if(!isset($_POST['searchbutton'])){
         <h4>Result</h4>
     </div>
     <div class="results">
-        <div class="resultsbg">
-            <p> <?php 
-            if(!isset($_POST['search'])){
-                echo '';
+        <p> <?php 
+        if(!isset($_POST['search'])){
+            echo '';
+        }
+        else if (isset($_POST['search'])) {
+            if(empty ($searchresult)) {
+                echo '<b> No results found!</b>';
             }
-            else if (isset($_POST['search'])) {
-                if(empty ($searchresult)) {
-                    echo '<b> No results found!</b>';
-                }
-                else{
-                    echo "● {$searchresult["username"]} ({$searchresult['name']})";}
-                }
-            ?> </p> <br>
-        </div>
+            else{
+                echo "● {$searchresult["username"]} ({$searchresult['name']})";}
+            }
+        ?> </p> <br>
+        <div class="resultsbg"> </div>
     </div>
 </body>
 </html>
