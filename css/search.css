@@ -130,6 +130,7 @@ body {
 .searchbar input{
     width: 30rem;
     height:2rem;
+    color: var(--white);
     background-color: var(--light);
     border-color: var(--white);
 }
