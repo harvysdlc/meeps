@@ -3,6 +3,7 @@
     --light: #8FF8FC;
     --white: #ffffff;
     --gray: #F8F8F8;
+    --black: #000000;
 }
 
 body {
@@ -164,7 +165,7 @@ body {
 .results p{
     font-family: Arial, sans-serif;
     font-weight: normal;
-    color: var(--light);
+    color: var(--black);
     border-style: none;
     padding-bottom: 2rem;
 }
