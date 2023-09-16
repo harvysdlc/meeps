@@ -123,9 +123,9 @@ body {
 
 .grayrectangle .searchbar{
     position:fixed; 
-	top: 0%;
-	right: 0%;
+	top: 30%;
+	right: 5%;
     width: 15%;
-    height:5%;
+    height:10%;
     background:var(--white);
 }
