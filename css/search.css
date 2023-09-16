@@ -132,7 +132,7 @@ body {
     height:2rem;
     color: var(--white);
     background-color: var(--light);
-    border-color: var(--white);
+    border-color: var(--dark);
 }
 
 .searchbar button{
