@@ -68,9 +68,12 @@ else if(!isset($_POST['searchbutton'])){
             if(empty ($searchresult)) {
                 echo '<b> No results found!</b>';
             }
-            else{
-                echo "● {$searchresult["username"]} ({$searchresult['name']})";}
+            else if (count($searchresult) > 0) { 
+                foreach ($searchresults as $r) {
+                    printf("●<div>%s - %s</div>", $r["username"], $r["name"]);
+                }
             }
+        }
         ?> </p> <br>
     </div>
 </body>
