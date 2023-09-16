@@ -60,7 +60,14 @@ else if(!isset($_POST['searchbutton'])){
         <h4>Result</h4>
     </div>
     <div class="results">
-        <p> <?php echo "● {$searchresult["username"]} ({$searchresult['name']})";?> </p> <br>
+        <p> <?php 
+        if(!isset($_POST['search'])){
+            echo '';
+        }
+        else {
+        echo "● {$searchresult["username"]} ({$searchresult['name']})";}
+        ?> </p> <br>
+        
     </div>
 </body>
 </html>
