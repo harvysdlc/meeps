@@ -161,7 +161,7 @@ body {
 	left: 24%;
 }
 
-.results output{
+.results p{
     font-family: Arial, sans-serif;
     font-weight: normal;
     color: var(--dark);
