@@ -124,7 +124,7 @@ body {
 .searchbar{
     position:fixed; 
 	top: 30%;
-	right: 25%;
+	left: 20%;
 }
 
 .searchbar input{
