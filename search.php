@@ -48,13 +48,12 @@ else if(!isset($_POST['searchbutton'])){
     <div class="triangle">
         <img src="../meeps/images/triangle.png">
     </div>
-    <div class="grayrectangle"> 
-        <div class="searchbar">
+    <div class="grayrectangle"> </div>
+    <div class="searchbar">
             <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>"> 
             <input type="text" name="search"> 
             <input type="submit" name="searchbutton" value="Search">
             </form>
-        </div>
     </div>
 </body>
 </html>
