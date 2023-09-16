@@ -60,7 +60,7 @@ $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%
         <h4>Result</h4>
     </div>
     <div class="results">
-        <p> <?php 
+        <?php 
         if(isset($_POST['searchbutton'])){
             $searchresult = mysqli_query($conn, $searchquery);
             echo '<table>';
@@ -75,7 +75,7 @@ $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%
                 echo '</tr>';
             }
         }
-        echo '</table>';?> </p>
+        echo '</table>';?>
     </div>
 </body>
 </html>
