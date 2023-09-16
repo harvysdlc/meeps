@@ -59,7 +59,7 @@ else if(!isset($_POST['searchbutton'])){
         <h4>Result</h4>
     </div>
     <div class="results">
-        <p> <?php echo "{$here["username"]} {$here['name']}"; ?> </p>
+        <p> <?php echo "{$here["username"]} ({$here['name']})"; ?> </p>
     </div>
 </body>
 </html>
