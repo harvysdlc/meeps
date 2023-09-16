@@ -163,7 +163,7 @@ body {
 
 .searchbar .results p{
     font-family: Arial, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     color: var(--dark);
     border-style: none;
 }
