@@ -60,7 +60,16 @@ else if(!isset($_POST['searchbutton'])){
         <h4>Result</h4>
     </div>
     <div class="results">
-        <p> <?php echo "{$searchresult["username"]} ({$searchresult['name']})";?> </p> <br>
+        <p> <?php 
+        echo '<table>';
+        while($table = mysqli_fetch_array($searchresult)){
+            echo '<tr>';
+            echo '<td>';
+            echo "{$searchresult["username"]} ({$searchresult['name']})";
+            echo '</td>';
+            echo '</tr>';
+        }
+        echo '</table>';?> </p>
     </div>
 </body>
 </html>
