@@ -54,7 +54,7 @@ else if(!isset($_POST['searchbutton'])){
             <input type="text" name="search"> 
             <button type="submit" name="searchbutton">Search</button>
             </form>
-            <h3>Recent</h3>
+            <h4>Result</h4>
     </div>
 </body>
 </html>
