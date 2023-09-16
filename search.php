@@ -52,6 +52,7 @@ else if(!isset($_POST['searchbutton'])){
         <img src="../meeps/images/triangle.png">
     </div>
     <div class="grayrectangle"> </div>
+    <div class="search-area"> </div>
     <div class="searchbar">
         <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>"> 
         <input type="text" name="search"> 
