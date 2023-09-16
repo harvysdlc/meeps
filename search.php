@@ -64,8 +64,13 @@ else if(!isset($_POST['searchbutton'])){
         if(!isset($_POST['search'])){
             echo '';
         }
-        else {
-        echo "● {$searchresult["username"]} ({$searchresult['name']})";}
+        else if (isset($_POST['search'])) {
+            if(mysqli_num_rows ($searchresult) < 0) {
+                echo 'Query not found!';
+            }
+            else{
+                echo "● {$searchresult["username"]} ({$searchresult['name']})";}
+            }
         ?> </p> <br>
         
     </div>
