@@ -65,7 +65,7 @@ else if(!isset($_POST['searchbutton'])){
             echo '';
         }
         else if (isset($_POST['search'])) {
-            if(mysqli_num_rows ($searchresult) < 0) {
+            if(empty ($searchresult)) {
                 echo 'Query not found!';
             }
             else{
