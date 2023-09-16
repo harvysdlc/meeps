@@ -166,4 +166,5 @@ body {
     font-weight: normal;
     color: var(--dark);
     border-style: none;
+    padding-bottom: 2rem;
 }
