@@ -66,7 +66,7 @@ else if(!isset($_POST['searchbutton'])){
         }
         else if (isset($_POST['search'])) {
             if(empty ($searchresult)) {
-                echo 'No results found!';
+                echo '<b> No results found!</b>';
             }
             else{
                 echo "● {$searchresult["username"]} ({$searchresult['name']})";}
