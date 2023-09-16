@@ -13,16 +13,12 @@ if(isset($_POST['searchbutton'])){
     $search = $_POST['search'];
     $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%$search%'"); 
     $here = mysqli_fetch_assoc($searchquery);
-
-    if(mysqli_num_rows($searchquery) <0){
-        echo "No account found";
-    }
-
 }
 
 else if(!isset($_POST['searchbutton'])){
     $search = '';
 }
+
 ?>
 
 <!DOCTYPE html>
