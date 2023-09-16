@@ -164,7 +164,7 @@ body {
 .results p{
     font-family: Arial, sans-serif;
     font-weight: normal;
-    color: var(--dark);
+    color: var(--light);
     border-style: none;
     padding-bottom: 2rem;
 }
