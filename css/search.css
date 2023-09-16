@@ -134,6 +134,7 @@ body {
     background-color: var(--white);
     padding-left: 1rem;
     border-style:inset;
+    border-color: var(--dark);
 }
 
 .searchbar button{
