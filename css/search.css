@@ -161,14 +161,6 @@ body {
 	left: 24%;
 }
 
-.results .resultsbg{
-    position:fixed; 
-	top: 23%;
-	left: 22%;
-    background-color: var(--white);
-    z-index: 1;
-}
-
 .results p{
     font-family: Arial, sans-serif;
     font-weight: normal;

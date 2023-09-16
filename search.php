@@ -72,7 +72,6 @@ else if(!isset($_POST['searchbutton'])){
                 echo "● {$searchresult["username"]} ({$searchresult['name']})";}
             }
         ?> </p> <br>
-        <div class="resultsbg"> </div>
     </div>
 </body>
 </html>
