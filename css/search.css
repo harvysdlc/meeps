@@ -154,3 +154,18 @@ body {
     color: var(--dark);
     border-style: none;
 }
+
+.searchbar .results{
+    position:fixed; 
+	top: 13%;
+	left: 24%;
+}
+
+.searchbar .results .h5{
+    top: 11%;
+	left: 24%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: var(--dark);
+    border-style: none;
+}

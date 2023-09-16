@@ -12,7 +12,7 @@ else{
 if(isset($_POST['searchbutton'])){
     $search = $_POST['search'];
     $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%$search%'"); 
-    $row = mysqli_fetch_assoc($searchquery);
+    $here = mysqli_fetch_assoc($searchquery);
 }
 
 else if(!isset($_POST['searchbutton'])){
@@ -52,11 +52,14 @@ else if(!isset($_POST['searchbutton'])){
     </div>
     <div class="grayrectangle"> </div>
     <div class="searchbar">
-            <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>"> 
-            <input type="text" name="search"> 
-            <button type="submit" name="searchbutton">Search</button>
-            </form>
-            <h4>Result</h4>
+        <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>"> 
+        <input type="text" name="search"> 
+        <button type="submit" name="searchbutton">Search</button>
+        </form>
+        <h4>Result</h4>
+        <div class="results">
+            <h5> <?php echo $here["username"]; ?> </h5>
+        </div>
     </div>
 </body>
 </html>
