@@ -45,7 +45,7 @@ else{
             <img src="../meeps/images/upper.png">
         </div>
         <div class="pfp">
-            <img src="../meeps/images/user-normal.jpg">
+            <img src="../meeps/images/user-verified.jpg">
         </div>
         <div class="edit">
             <button onclick="window.location.href=''">Edit profile</button>
