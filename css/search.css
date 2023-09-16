@@ -138,5 +138,5 @@ body {
     background-color: var(--dark);
     color: var(--white);
     border-style: none;
-    border-width: 2rem;
+    width: 2rem;
 }
