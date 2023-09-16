@@ -133,7 +133,7 @@ body {
     color: var(--dark);
     background-color: var(--white);
     padding-left: 1rem;
-    border-style: none;
+    border-style:inset;
 }
 
 .searchbar button{
