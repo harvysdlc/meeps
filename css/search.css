@@ -125,7 +125,7 @@ body {
     position:fixed; 
 	top: 30%;
 	right: 25%;
-    border-style:hidden;
+    border-style: solid;
     border-color: var(--dark);
 }
 
