@@ -132,7 +132,6 @@ body {
     height:2rem;
     color: var(--dark);
     background-color: var(--white);
-    border-color: solid var(--dark);
     padding-left: 1rem;
 }
 
