@@ -121,16 +121,6 @@ body {
     z-index: -1;
 }
 
-.search-are{
-    position:fixed; 
-	top: 30%;
-	left: 11%;
-    width: 70%;
-    height: 60%;
-    background:var(--white);
-    z-index: 1;
-}
-
 .searchbar{
     position:fixed; 
 	top: 9%;
@@ -169,6 +159,10 @@ body {
     position:fixed; 
 	top: 25%;
 	left: 24%;
+}
+
+.results .resultsbg{
+    background-color: var(--white);
 }
 
 .results p{

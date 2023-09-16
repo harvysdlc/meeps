@@ -51,7 +51,6 @@ else if(!isset($_POST['searchbutton'])){
     <div class="triangle">
         <img src="../meeps/images/triangle.png">
     </div>
-    <div class="search-area"> </div>
     <div class="grayrectangle"> </div>
     <div class="searchbar">
         <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>"> 
@@ -61,19 +60,20 @@ else if(!isset($_POST['searchbutton'])){
         <h4>Result</h4>
     </div>
     <div class="results">
-        <p> <?php 
-        if(!isset($_POST['search'])){
-            echo '';
-        }
-        else if (isset($_POST['search'])) {
-            if(empty ($searchresult)) {
-                echo '<b> No results found!</b>';
+        <div class="resultsbg">
+            <p> <?php 
+            if(!isset($_POST['search'])){
+                echo '';
             }
-            else{
-                echo "● {$searchresult["username"]} ({$searchresult['name']})";}
-            }
-        ?> </p> <br>
-        
+            else if (isset($_POST['search'])) {
+                if(empty ($searchresult)) {
+                    echo '<b> No results found!</b>';
+                }
+                else{
+                    echo "● {$searchresult["username"]} ({$searchresult['name']})";}
+                }
+            ?> </p> <br>
+        </div>
     </div>
 </body>
 </html>
