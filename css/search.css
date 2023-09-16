@@ -138,6 +138,6 @@ body {
     background-color: var(--dark);
     color: var(--white);
     border-style: none;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 3rem;
 }
