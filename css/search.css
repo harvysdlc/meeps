@@ -155,13 +155,13 @@ body {
     border-style: none;
 }
 
-.searchbar .results{
+.results{
     position:fixed; 
 	top: 25%;
 	left: 24%;
 }
 
-.searchbar .results p{
+.results p{
     font-family: Arial, sans-serif;
     font-weight: normal;
     color: var(--dark);

@@ -57,9 +57,9 @@ else if(!isset($_POST['searchbutton'])){
         <button type="submit" name="searchbutton">Search</button>
         </form>
         <h4>Result</h4>
-        <div class="results">
-            <p> <?php echo $here["username"]; ?> </p>
-        </div>
+    </div>
+    <div class="results">
+        <p> <?php echo $here["username"]  .' ('. $here['name'] .')'; ?> </p>
     </div>
 </body>
 </html>
