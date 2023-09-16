@@ -157,11 +157,11 @@ body {
 
 .searchbar .results{
     position:fixed; 
-	top: 20%;
+	top: 23%;
 	left: 24%;
 }
 
-.searchbar .results .h4{
+.searchbar .results p{
     font-family: Arial, sans-serif;
     font-weight: bold;
     color: var(--dark);

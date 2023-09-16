@@ -58,7 +58,7 @@ else if(!isset($_POST['searchbutton'])){
         </form>
         <h4>Result</h4>
         <div class="results">
-            <h4> <?php echo $here["username"]; ?> </h4>
+            <p> <?php echo $here["username"]; ?> </p>
         </div>
     </div>
 </body>
