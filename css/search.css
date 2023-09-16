@@ -162,6 +162,9 @@ body {
 }
 
 .results .resultsbg{
+    position:fixed; 
+	top: 23%;
+	left: 22%;
     background-color: var(--white);
 }
 
