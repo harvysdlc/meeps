@@ -144,3 +144,12 @@ body {
     width: 4.5rem;
     height: 2.35rem;
 }
+
+.searchbar h3{
+    top: 11%;
+	left: 22%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: var(--dark);
+    border-style: none;
+}
