@@ -12,7 +12,7 @@ else{
 if(isset($_POST['searchbutton'])){
     $search = $_POST['search'];
     $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%$search%'"); 
-    $searchresult = mysqli_fetch_assoc($searchquery);
+    $searchresult = mysqli_query($conn, $searchquery);
 }
 
 else if(!isset($_POST['searchbutton'])){
@@ -62,7 +62,7 @@ else if(!isset($_POST['searchbutton'])){
     <div class="results">
         <p> <?php 
         echo '<table>';
-        while($table = mysqli_fetch_assoc($searchresult)){
+        while($tables = mysqli_fetch_array($searchresult)){
             echo '<tr>';
             echo '<td>';
             echo "{$searchresult["username"]} ({$searchresult['name']})";
