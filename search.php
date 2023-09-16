@@ -50,7 +50,8 @@ else if(!isset($_POST['searchbutton'])){
     </div>
     <div class="grayrectangle"> 
         <div class="searchbar">
-            <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>" input type="text" name="search"> 
+            <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>"> 
+            <input type="text" name="search"> 
             <input type="submit" name="searchbutton" value="Search">
             </form>
         </div>
