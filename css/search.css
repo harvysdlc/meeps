@@ -131,6 +131,7 @@ body {
     width: 30rem;
     height:2rem;
     background-color: var(--light);
+    border-style: none;
 }
 
 .searchbar button{
