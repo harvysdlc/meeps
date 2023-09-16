@@ -166,6 +166,7 @@ body {
 	top: 23%;
 	left: 22%;
     background-color: var(--white);
+    z-index: 1;
 }
 
 .results p{
