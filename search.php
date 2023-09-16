@@ -14,7 +14,7 @@ if(isset($_POST['searchbutton'])){
     $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%$search%'"); 
     $here = mysqli_fetch_assoc($searchquery);
 
-    if(mysqli_num_rows($search) <0){
+    if(mysqli_num_rows($searchquery) <0){
         echo "No account found";
     }
 
