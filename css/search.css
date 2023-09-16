@@ -125,13 +125,12 @@ body {
     position:fixed; 
 	top: 30%;
 	right: 25%;
-    border-width: 1rem;
-    border-color: var(--dark);
 }
 
 .searchbar input{
     width: 30rem;
     height:2rem;
+    background-color: var(--light);
 }
 
 .searchbar button{
