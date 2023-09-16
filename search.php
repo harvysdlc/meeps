@@ -60,7 +60,7 @@ else if(!isset($_POST['searchbutton'])){
         <h4>Result</h4>
     </div>
     <div class="results">
-        <p> <?php echo "{$searchresult["username"]} ({$searchresult['name']})";?> </p> <br>
+        <a href = "../meeps/profile.php" <?php echo "{$searchresult["username"]} ({$searchresult['name']})";?>> </a> <br>
     </div>
 </body>
 </html>
