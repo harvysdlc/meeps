@@ -70,9 +70,11 @@ else if(!isset($_POST['searchbutton'])){
             }
             else if(count($searchresult)> 1){
                 foreach($searchresult as $s){
-                    echo "●{$s["username"]} ({$s['name']})";}
+                    $s = array($s['username'], $s['name']);
+                    echo "●$s";
                 }
             }
+        }
         ?> </p> <br>
     </div>
 </body>
