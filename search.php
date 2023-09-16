@@ -70,7 +70,7 @@ else if(!isset($_POST['searchbutton'])){
             }
             else if (count($searchresult) > 0) { 
                 foreach ($searchresult as $r) {
-                    printf("●<div>%s - %s</div>", "●{$r["username"]} ({$r['name']})");
+                    echo "●{$r["username"]} ({$r['name']})";
                 }
             }
         }
