@@ -124,7 +124,7 @@ body {
 .searchbar{
     position:fixed; 
 	top: 9%;
-	left: 22%;
+	left: 24%;
 }
 
 .searchbar input{
@@ -145,9 +145,9 @@ body {
     height: 2.35rem;
 }
 
-.searchbar h5{
+.searchbar h4{
     top: 11%;
-	left: 22%;
+	left: 24%;
     font-family: Arial, sans-serif;
     font-weight: bold;
     color: var(--dark);
