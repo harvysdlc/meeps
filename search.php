@@ -11,13 +11,13 @@ else{
 
 if(isset($_POST['searchbutton'])){
     $search = $_POST['search'];
+    $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%$search%'"); 
+    $searchresult = mysqli_fetch_assoc($searchquery);
 }
 
 else if(!isset($_POST['searchbutton'])){
     $search = '';
 }
-
-$searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%$search%'"); 
 
 ?>
 
@@ -60,22 +60,7 @@ $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%
         <h4>Result</h4>
     </div>
     <div class="results">
-        <?php 
-        if(isset($_POST['searchbutton'])){
-            $searchresult = mysqli_query($meeps, $searchquery);
-            echo '<table>';
-            while($tables = mysqli_fetch_array($searchresult)){
-                echo '<tr>';
-                echo '<td>';
-                echo $tables['username'];
-                echo '</td>';
-                echo '<td>';
-                echo $table['name'];
-                echo '</td>';
-                echo '</tr>';
-            }
-        }
-        echo '</table>';?>
+        <p> <?php echo "{$searchresult["username"]} ({$searchresult['name']})";?> </p> <br>
     </div>
 </body>
 </html>
