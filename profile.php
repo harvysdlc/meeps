@@ -32,8 +32,8 @@ else{
         <img src="../meeps/images/logowhite.png">
     </div>
     <div class="welcome">
-        <h2> <?php echo $row["username"]; ?> </h2>
         <div class="badge">
+        <h2> <?php echo $row["username"]; ?> </h2>
             <?php
             $sql = "SELECT Acctype FROM tb_user WHERE id = '$id'";
             $sqlresult = mysqli_query($conn, $sql);

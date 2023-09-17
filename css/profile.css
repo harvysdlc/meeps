@@ -90,7 +90,7 @@ body {
 	left: 27%;
 }
 
-.welcome h2{
+.welcome .badge h2{
     position:fixed; 
 	text-decoration: none;
     font-family: Arial, sans-serif;
