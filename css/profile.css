@@ -98,12 +98,12 @@ body {
 }
 
 .welcome .badge{
-    top: 27.5%;
     position: fixed; 
     width: 7%;
 }
 
 .welcome .badge img{
+    padding-bottom: 2rem;
     padding-left: 4rem;
     display: block;
 	width: 7%;
