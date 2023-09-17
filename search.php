@@ -69,7 +69,9 @@ else if(!isset($_POST['searchbutton'])){
                 echo '<b> No results found!</b>';
             }
             else{
-                echo sprintf("● {$searchresult["name"]} (@{$searchresult['username']})");}
+                while($searchresult = mysqli_fetch_array($searchquery)){
+                    echo ("● {$searchresult["name"]} (@{$searchresult['username']})<br><br>"); }
+                }
             }
         ?> </p> <br>
     </div>
