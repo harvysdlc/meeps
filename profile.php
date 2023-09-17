@@ -35,7 +35,12 @@ else{
         <h2> <?php echo $row["username"]; ?> </h2>
         <div class="badge">
         <?php
-            if($Acctype == '1'){
+        $sql = "SELECT 'Acctype' FROM tb_user";
+        $sqlresult = mysqli_query($conn, $sql);
+        $sqldisplay = mysqli_fetch_assoc($sqlresult);
+        $Acctype = $sqldisplay['Acctype'];
+
+            if($Acctype == "1"){
         ?>
             <img src="../meeps/images/vbadge.png">
         <?php
