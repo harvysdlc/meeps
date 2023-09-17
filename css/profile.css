@@ -99,13 +99,13 @@ body {
 
 .welcome .badge{
     position: fixed; 
-    width: 10%;
+    width: 7%;
 }
 
 .welcome .badge img{
     padding-right: 2rem;
     display: block;
-	width: 10%;
+	width: 7%;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
