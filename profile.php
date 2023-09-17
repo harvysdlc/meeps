@@ -65,7 +65,18 @@ else{
             <img src="../meeps/images/upper.png">
         </div>
         <div class="pfp">
+            <?php
+            if($Acctype == "verified"){
+            ?>
             <img src="../meeps/images/user-verified.jpg">
+            <?php
+            }
+            else {
+            ?>
+            <img src="../meeps/images/user-normal.jpg">
+            <?php
+            }
+            ?>
         </div>
         <div class="edit">
             <button onclick="window.location.href=''">Edit profile</button>
