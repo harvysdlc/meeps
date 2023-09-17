@@ -102,10 +102,10 @@ body {
     top: 33%;
 	left: 27%; 
     width: 13%;
-    padding-left: 2rem;
 }
 
 .welcome .badge img{
+    padding-left: 2rem;
     display: block;
 	width: 13%;
     -moz-user-select: none;
