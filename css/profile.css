@@ -88,7 +88,6 @@ body {
     position:fixed; 
 	top: 29.5%;
 	left: 27%;
-    width: 50%;
 }
 
 .welcome .badge h2{
@@ -100,11 +99,11 @@ body {
 
 .welcome .badge{
     position: fixed; 
-    padding-right: 2rem;
     width: 7%;
 }
 
 .welcome .badge img{
+    padding-left: 5rem;
     display: block;
 	width: 7%;
     -moz-user-select: none;
