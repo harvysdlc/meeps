@@ -33,25 +33,25 @@ else{
     </div>
     <div class="welcome">
         <div class="badge">
-        <h2> <?php echo $row["username"]; ?> </h2>
-            <?php
-            $sql = "SELECT Acctype FROM tb_user WHERE id = '$id'";
-            $sqlresult = mysqli_query($conn, $sql);
-            $sqldisplay = mysqli_fetch_assoc($sqlresult);
+            <h2> <?php echo $row["username"]; ?> </h2>
+                <?php
+                $sql = "SELECT Acctype FROM tb_user WHERE id = '$id'";
+                $sqlresult = mysqli_query($conn, $sql);
+                $sqldisplay = mysqli_fetch_assoc($sqlresult);
 
-            $Acctype = $sqldisplay['Acctype'];
+                $Acctype = $sqldisplay['Acctype'];
 
-                if($Acctype == "verified"){
-            ?>
-                <img src="../meeps/images/vbadge.png">
-            <?php
-                }
-                else {
-            ?>
-                <img src="">
-            <?php 
-                }
-            ?>
+                    if($Acctype == "verified"){
+                ?>
+                    <img src="../meeps/images/vbadge.png">
+                <?php
+                    }
+                    else {
+                ?>
+                    <img src="">
+                <?php 
+                    }
+                ?>
         </div>
     </div>
     <div class="signout">
