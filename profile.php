@@ -36,9 +36,10 @@ else{
     </div>
     <div class="badge">
         <?php
-        $sql = "SELECT 'Acctype' FROM tb_user WHERE 'id' = $id";
+        $sql = "SELECT Acctype FROM tb_user WHERE id = '$id'";
         $sqlresult = mysqli_query($conn, $sql);
         $sqldisplay = mysqli_fetch_assoc($sqlresult);
+
         $Acctype = $sqldisplay['Acctype'];
 
             if($Acctype == "verified"){
