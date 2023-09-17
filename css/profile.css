@@ -101,13 +101,13 @@ body {
     position: fixed;
     top: 29.5%;
 	left: 27%; 
-    width: 7%;
+    width: 13%;
 }
 
 .welcome .badge img{
     padding-left: 2rem;
     display: block;
-	width: 7%;
+	width: 13%;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
