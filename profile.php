@@ -38,11 +38,12 @@ else{
                 $sql = "SELECT Acctype FROM tb_user WHERE id = '$id'";
                 $sqlresult = mysqli_query($conn, $sql);
                 $sqldisplay = mysqli_fetch_assoc($sqlresult);
+                $img = "../meeps/images/vbadge.png";
 
                 $Acctype = $sqldisplay['Acctype'];
 
                     if($Acctype == "verified"){
-                    echo $row["username"];
+                    echo $row["username"], $img;
                 ?>
                     <img src="../meeps/images/vbadge.png">
                 <?php
