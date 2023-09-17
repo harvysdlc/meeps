@@ -12,8 +12,7 @@ else{
 if(isset($_POST['searchbutton'])){
     $search = $_POST['search'];
     $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE name LIKE '%$search%'"); 
-    $searchquery1 = mysqli_query($conn, "SELECT * FROM tb_user WHERE username LIKE '%$search%'"); 
-    $searchresult = mysqli_fetch_assoc($searchquery, $searchquery1);
+    $searchresult = mysqli_fetch_assoc($searchquery);
 }
 
 else if(!isset($_POST['searchbutton'])){
