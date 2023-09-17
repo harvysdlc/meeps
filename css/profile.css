@@ -101,6 +101,7 @@ body {
     position:fixed; 
 	top: 29.5%;
 	left: 45%;
+    width: 50%;
 }
 
 .welcome .badge img{
