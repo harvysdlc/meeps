@@ -41,9 +41,7 @@ else{
         $sqldisplay = mysqli_fetch_assoc($sqlresult);
         $Acctype = $sqldisplay['Acctype'];
 
-        echo $sqldisplay;
-
-            if($Acctype == '1'){
+            if($Acctype == "verified"){
         ?>
             <img src="../meeps/images/vbadge.png">
         <?php
