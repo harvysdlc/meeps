@@ -41,7 +41,7 @@ else{
         $sqldisplay = mysqli_fetch_assoc($sqlresult);
         $Acctype = $sqldisplay['Acctype'];
 
-        echo $Acctype;
+        echo $sqldisplay;
 
             if($Acctype == '1'){
         ?>
