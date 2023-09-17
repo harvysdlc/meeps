@@ -97,6 +97,24 @@ body {
     color: var(--dark);
 }
 
+.welcome .badge{
+    position:fixed; 
+	top: 29.5%;
+	left: 30%;
+}
+
+.welcome .badge img{
+    display: block;
+	width: 10%;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-drag: none;
+    -khtml-user-drag: none;
+    -webkit-user-drag: none;
+}
+
 .signout{ 
     position:fixed; 
 	top: 90.4%;

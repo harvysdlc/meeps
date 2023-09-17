@@ -33,6 +33,20 @@ else{
     </div>
     <div class="welcome">
         <h2> <?php echo $row["username"]; ?> </h2>
+        <div class="badge">
+        <?php
+            if($Acctype == '1'){
+        ?>
+            <img src="../meeps/images/vbadge.png">
+        <?php
+            }
+            else {
+        ?>
+            <img src="">
+        <?php 
+            }
+        ?>
+        </div>
     </div>
     <div class="signout">
         <a href="signout.php"> Sign out </a>
