@@ -32,30 +32,26 @@ else{
         <img src="../meeps/images/logowhite.png">
     </div>
     <div class="welcome">
+        <h2> <?php echo $row["username"];?> </h2>
         <div class="badge">
-            <h2>
-                <?php
-                $sql = "SELECT Acctype FROM tb_user WHERE id = '$id'";
-                $sqlresult = mysqli_query($conn, $sql);
-                $sqldisplay = mysqli_fetch_assoc($sqlresult);
-                $img = "../meeps/images/vbadge.png";
+            <?php
+            $sql = "SELECT Acctype FROM tb_user WHERE id = '$id'";
+            $sqlresult = mysqli_query($conn, $sql);
+            $sqldisplay = mysqli_fetch_assoc($sqlresult);
+            $Acctype = $sqldisplay['Acctype'];
 
-                $Acctype = $sqldisplay['Acctype'];
-
-                    if($Acctype == "verified"){
-                    echo $row["username"], $img;
-                ?>
-                    <img src="../meeps/images/vbadge.png">
-                <?php
-                    }
-                    else {
-                    echo $row["username"];
-                ?>
-                    <img src="">
-                <?php 
-                    }
-                ?>
-            </h2>
+                if($Acctype == "verified"){
+                
+            ?>
+                <img src="../meeps/images/vbadge.png">
+            <?php
+                }
+                else {
+            ?>
+                <img src="">
+            <?php 
+                }
+            ?>
         </div>
     </div>
     <div class="signout">

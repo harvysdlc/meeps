@@ -90,7 +90,7 @@ body {
 	left: 27%;
 }
 
-.welcome .badge h2{
+.welcome h2{
     position:fixed; 
 	text-decoration: none;
     font-family: Arial, sans-serif;
@@ -98,13 +98,14 @@ body {
 }
 
 .welcome .badge{
-    position: fixed; 
+    position: fixed;
+    top: 29.5%;
+	left: 27%; 
     width: 7%;
 }
 
 .welcome .badge img{
-    padding-bottom: 2rem;
-    padding-left: 4rem;
+    padding-left: 2rem;
     display: block;
 	width: 7%;
     -moz-user-select: none;
