@@ -33,8 +33,9 @@ else{
     </div>
     <div class="welcome">
         <div class="badge">
-            <h2> <?php echo $row["username"]; ?> </h2>
+            <h2>
                 <?php
+                echo $row["username"];
                 $sql = "SELECT Acctype FROM tb_user WHERE id = '$id'";
                 $sqlresult = mysqli_query($conn, $sql);
                 $sqldisplay = mysqli_fetch_assoc($sqlresult);
@@ -52,6 +53,7 @@ else{
                 <?php 
                     }
                 ?>
+            </h2>
         </div>
     </div>
     <div class="signout">
