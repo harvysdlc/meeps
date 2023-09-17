@@ -69,7 +69,7 @@ else if(!isset($_POST['searchbutton'])){
                 echo '<b> No results found!</b>';
             }
             else{
-                echo "● {$searchresult["name"]} (@{$searchresult['username']})";}
+                echo sprintf("● {$searchresult["name"]} (@{$searchresult['username']})");}
             }
         ?> </p> <br>
     </div>
