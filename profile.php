@@ -33,14 +33,15 @@ else{
     </div>
     <div class="welcome">
         <h2> <?php echo $row["username"]; ?> </h2>
-        <div class="badge">
+    </div>
+    <div class="badge">
         <?php
         $sql = "SELECT 'Acctype' FROM tb_user";
         $sqlresult = mysqli_query($conn, $sql);
         $sqldisplay = mysqli_fetch_assoc($sqlresult);
         $Acctype = $sqldisplay['Acctype'];
 
-            if($Acctype == "1"){
+            if($Acctype == '1'){
         ?>
             <img src="../meeps/images/vbadge.png">
         <?php
@@ -52,7 +53,6 @@ else{
             }
         ?>
         </div>
-    </div>
     <div class="signout">
         <a href="signout.php"> Sign out </a>
     </div>
@@ -61,7 +61,7 @@ else{
     </div>
     <div class="grayrectangle"> 
         <div class="header">
-            <img src="../meeps/images/upper-verfied.png">
+            <img src="../meeps/images/upper.png">
         </div>
         <div class="pfp">
             <img src="../meeps/images/user-verified.jpg">

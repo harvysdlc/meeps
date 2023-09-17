@@ -97,14 +97,14 @@ body {
     color: var(--dark);
 }
 
-.welcome .badge{
+.badge{
     position: absolute; 
 	top: 29.5%;
 	left: 45%;
     width: 50%;
 }
 
-.welcome .badge img{
+.badge img{
     display: block;
 	width: 50%;
     -moz-user-select: none;
