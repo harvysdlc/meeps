@@ -35,7 +35,6 @@ else{
         <div class="badge">
             <h2>
                 <?php
-                echo $row["username"];
                 $sql = "SELECT Acctype FROM tb_user WHERE id = '$id'";
                 $sqlresult = mysqli_query($conn, $sql);
                 $sqldisplay = mysqli_fetch_assoc($sqlresult);
@@ -43,11 +42,13 @@ else{
                 $Acctype = $sqldisplay['Acctype'];
 
                     if($Acctype == "verified"){
+                    echo $row["username"];
                 ?>
                     <img src="../meeps/images/vbadge.png">
                 <?php
                     }
                     else {
+                    echo $row["username"];
                 ?>
                     <img src="">
                 <?php 
