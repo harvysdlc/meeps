@@ -101,12 +101,12 @@ body {
     position: absolute; 
 	top: 29.5%;
 	right: 25%;
-    width: 5%;
+    width: 15%;
 }
 
 .badge img{
     display: block;
-	width: 5%;
+	width: 15%;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
