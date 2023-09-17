@@ -41,6 +41,8 @@ else{
         $sqldisplay = mysqli_fetch_assoc($sqlresult);
         $Acctype = $sqldisplay['Acctype'];
 
+        echo $Acctype;
+
             if($Acctype == '1'){
         ?>
             <img src="../meeps/images/vbadge.png">
