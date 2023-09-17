@@ -99,9 +99,10 @@ body {
 
 .welcome .badge{
     position: fixed;
-    top: 32%;
+    top: 34%;
 	left: 27%; 
     width: 13%;
+    padding-left: 2rem;
 }
 
 .welcome .badge img{
