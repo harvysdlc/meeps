@@ -100,12 +100,12 @@ body {
 .welcome .badge{
     position:fixed; 
 	top: 29.5%;
-	left: 30%;
+	left: 45%;
 }
 
 .welcome .badge img{
     display: block;
-	width: 10%;
+	width: 50%;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
