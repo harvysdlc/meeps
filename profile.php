@@ -42,7 +42,7 @@ else{
     </div>
     <div class="grayrectangle"> 
         <div class="header">
-            <img src="../meeps/images/upper-verified.png">
+            <img src="../meeps/images/upper-verfied.png">
         </div>
         <div class="pfp">
             <img src="../meeps/images/user-verified.jpg">
