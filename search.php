@@ -48,9 +48,6 @@ if(isset($_POST['searchbutton'])){
     <div class="logo">
         <img src="../meeps/images/logowhite.png">
     </div>
-    <div class="welcome">
-        <h2> <?php echo $row["username"]; ?> </h2>
-    </div>
     <div class="signout">
         <a href="signout.php"> Sign out </a>
     </div>
