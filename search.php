@@ -60,7 +60,7 @@ else if(!isset($_POST['searchbutton'])){
     </div>
     <div class="results">
         <p> <?php 
-        if (mysqli_num_rows($searchquery) > 0) {
+        if (mysqli_num_rows($searchresult) > 0) {
             while ($searchresult = mysqli_fetch_assoc($searchquery)) {
                 echo "<p>● {$searchresult["name"]} (@{$searchresult['username']})</p>";
             }
