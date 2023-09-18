@@ -12,7 +12,6 @@ else{
 if(isset($_POST['searchbutton'])){
     $search = $_POST['search'];
     $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE name LIKE '%$search%'"); 
-    $searchresult = mysqli_fetch_assoc($searchquery);
 }
 
 else if(!isset($_POST['searchbutton'])){
@@ -61,16 +60,17 @@ else if(!isset($_POST['searchbutton'])){
     </div>
     <div class="results">
         <p> <?php 
-        if(!isset($_POST['search'])){
-            echo '';
+        if (mysqli_num_rows($searchquery) > 0) {
+            while ($searchresult = mysqli_fetch_assoc($searchquery)) {
+                echo "<p>● {$searchresult["name"]} (@{$searchresult['username']})</p>";
+            }
+        } 
+        else if(empty($searchresult)){
+            echo '<p><b>No results found!</b></p>';
         }
-        else if (isset($_POST['search'])) {
-            if(empty ($searchresult)) {
-                echo '<b> No results found!</b>';
-            }
-            else{
-                echo ("● {$searchresult["name"]} (@{$searchresult['username']})");}
-            }
+        else {
+        $search = '';
+        }
         ?> </p> <br>
     </div>
 </body>
