@@ -46,30 +46,31 @@ else{
         <h4>Result</h4>
     </div>
     <div class="results">
-        <?php
-        $searchresult = array();
-        if (isset($_POST['searchbutton'])) {
-            $search = $_POST['search'];
-            $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE name LIKE '%$search%'");
+    <?php
+    $searchresult = array();
+    if (isset($_POST['searchbutton'])) {
+        $search = $_POST['search'];
+        $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE name LIKE '%$search%'");
 
-            // Check if there are any results
-            if (mysqli_num_rows($searchquery) > 0) {
-                while ($row = mysqli_fetch_assoc($searchquery)) {
-                    $searchresult[] = $row; // Store each result in the array
-                }
+        // Check if there are any results
+        if (mysqli_num_rows($searchquery) > 0) {
+            while ($row = mysqli_fetch_assoc($searchquery)) {
+                $searchresult[] = $row; // Store each result in the array
+            }
 
-                // Display the results
-                foreach ($searchresult as $result) {
-                    // Create a clickable link to the user's profile page
-                    echo "<p>● <a href='profile.php?id={$result["id"]}'>{$result["name"]} (@{$result['username']})</a></p>";
-                }
-            } else {
-                echo '<p><b>No results found!</b></p>';
+            // Display the results
+            foreach ($searchresult as $result) {
+                // Create a clickable link to the user's profile page
+                echo "<p>● <a href='profile.php?id={$result["id"]}'>{$result["name"]} (@{$result['username']})</a></p>";
             }
         } else {
-            $search = '';
+            echo '<p><b>No results found!</b></p>';
         }
-        ?>
-    </div>
+    } else {
+        $search = '';
+    }
+    ?>
+</div>
+
 </body>
 </html>
