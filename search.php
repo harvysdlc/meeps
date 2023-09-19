@@ -69,12 +69,11 @@ if(isset($_POST['searchbutton'])){
                 echo "<p>● {$result["name"]} (@{$result['username']})</p>";
             }  
         } 
-        
         else if(empty($searchresult)){
-            echo "";
+            echo '<p><b>No results found!</b></p>';
         }
         else {
-            echo '<p><b>No results found!</b></p>';
+            echo "";
         }
         ?> </p> <br>
     </div>
