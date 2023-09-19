@@ -67,8 +67,13 @@ if(isset($_POST['searchbutton'])){
         if (!empty($searchresult)) {
             foreach ($searchresult as $result) {
                 echo "<p>● {$result["name"]} (@{$result['username']})</p>";
-            }
-        } else {
+            }  
+        } 
+        
+        else if(empty($searchresult)){
+            echo "";
+        }
+        else {
             echo '<p><b>No results found!</b></p>';
         }
         ?> </p> <br>
