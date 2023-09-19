@@ -8,6 +8,29 @@ if(!empty($_SESSION["id"])){
 else{
     header("Location: signin.php");
 }
+
+if (isset($_GET['id'])) {
+    $userId = $_GET['id'];
+    
+    // Fetch user information from the database based on the ID
+    $query = "SELECT * FROM tb_user WHERE id = '$userId'";
+    $result = mysqli_query($conn, $query);
+    
+    if ($result && mysqli_num_rows($result) > 0) {
+        $user = mysqli_fetch_assoc($result);
+        
+        // Display user profile information
+        echo "<h1>{$user['name']}</h1>";
+        echo "<p>Username: @{$user['username']}</p>";
+        echo "<p>Email: {$user['email']}</p>";
+        // Add more profile information as needed
+    } else {
+        echo "User not found";
+    }
+} else {
+    echo "Invalid user ID";
+}
+
 ?>
 
 <!DOCTYPE html>
