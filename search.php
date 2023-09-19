@@ -8,8 +8,6 @@ if(!empty($_SESSION["id"])){
 else{
     header("Location: signin.php");
 }
-
-$searchresult = array(); // Initialize an empty array to store results
 ?>
 
 <!DOCTYPE html>
@@ -49,6 +47,7 @@ $searchresult = array(); // Initialize an empty array to store results
     </div>
     <div class="results">
         <p> <?php 
+        $searchresult = array();
         if(isset($_POST['searchbutton'])){
             $search = $_POST['search'];
             $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE name LIKE '%$search%'"); 
