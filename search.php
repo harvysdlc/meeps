@@ -22,7 +22,7 @@ if(isset($_POST['searchbutton'])){
         }
     }
 } else {
-    $search = '';
+    echo '';
 }
 
 ?>
@@ -69,11 +69,8 @@ if(isset($_POST['searchbutton'])){
                 echo "<p>● {$result["name"]} (@{$result['username']})</p>";
             }  
         } 
-        else if(empty($searchresult)){
-            echo '<p><b>No results found!</b></p>';
-        }
         else {
-            echo "";
+            echo '<p><b>No results found!</b></p>';
         }
         ?> </p> <br>
     </div>
