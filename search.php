@@ -10,23 +10,6 @@ else{
 }
 
 $searchresult = array(); // Initialize an empty array to store results
-
-if(isset($_POST['searchbutton'])){
-    $search = $_POST['search'];
-    $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE name LIKE '%$search%'"); 
-    
-    // Check if there are any results
-    if (mysqli_num_rows($searchquery) > 0) {
-        while ($row = mysqli_fetch_assoc($searchquery)) {
-            $searchresult[] = $row; // Store each result in the array
-        }
-    }
-} 
-else if(!isset($_POST['searchbuton'])) {
-    $search = '';
-}
-
-
 ?>
 
 <!DOCTYPE html>
@@ -66,16 +49,25 @@ else if(!isset($_POST['searchbuton'])) {
     </div>
     <div class="results">
         <p> <?php 
-        if (!empty($searchresult)) {
-            foreach ($searchresult as $result) {
-                echo "<p>● {$result["name"]} (@{$result['username']})</p>";
-            }  
-        } 
-        else if(empty($searchresult)){
-            echo '<p><b>No results found!</b></p>';
-        }
-        else {
-            echo "";
+        if(isset($_POST['searchbutton'])){
+            $search = $_POST['search'];
+            $searchquery = mysqli_query($conn, "SELECT * FROM tb_user WHERE name LIKE '%$search%'"); 
+            
+            // Check if there are any results
+            if (mysqli_num_rows($searchquery) > 0) {
+                while ($row = mysqli_fetch_assoc($searchquery)) {
+                    $searchresult[] = $row; // Store each result in the array
+                }
+                
+                // Display the results
+                foreach ($searchresult as $result) {
+                    echo "<p>● {$result["name"]} (@{$result['username']})</p>";
+                }
+            } else {
+                echo '<p><b>No results found!</b></p>';
+            }
+        } else {
+            $search = '';
         }
         ?> </p> <br>
     </div>
