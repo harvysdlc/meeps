@@ -23,8 +23,10 @@ if(isset($_POST['searchbutton'])){
     }
 } 
 else if(!isset($_POST['searchbuton'])) {
-    echo "";
+    $search = '';
 }
+
+
 ?>
 
 <!DOCTYPE html>
