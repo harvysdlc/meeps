@@ -14,10 +14,10 @@ if (isset($_GET['id'])) {
     
     // Fetch user information from the database based on the ID
     $query = "SELECT * FROM tb_user WHERE id = '$userId'";
-    $result = mysqli_query($conn, $query);
+    $results = mysqli_query($conn, $query);
     
-    if ($result && mysqli_num_rows($result) > 0) {
-        $user = mysqli_fetch_assoc($result);
+    if ($results && mysqli_num_rows($results) > 0) {
+        $user = mysqli_fetch_assoc($results);
         
         // Display user profile information
         echo "<h1>{$user['name']}</h1>";
