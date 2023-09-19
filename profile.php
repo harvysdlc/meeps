@@ -32,7 +32,8 @@ else{
         <img src="../meeps/images/logowhite.png">
     </div>
     <div class="welcome">
-        <h2> <?php echo $row["username"];?> </h2>
+    <div class="user-info">
+        <h2><?php echo $row["username"]; ?></h2>
         <div class="badge">
             <?php
             $sql = "SELECT Acctype FROM tb_user WHERE id = '$id'";
@@ -40,20 +41,19 @@ else{
             $sqldisplay = mysqli_fetch_assoc($sqlresult);
             $Acctype = $sqldisplay['Acctype'];
 
-                if($Acctype == "verified"){
-                
-            ?>
-                <img src="../meeps/images/vbadge.png">
-            <?php
-                }
-                else {
-            ?>
-                <img src="">
-            <?php 
-                }
+            if ($Acctype == "verified") {
+                ?>
+                <img src="../meeps/images/vbadge.png" alt="Verified Badge">
+                <?php
+            } else {
+                ?>
+                <img src="" alt="">
+                <?php
+            }
             ?>
         </div>
     </div>
+</div>
     <div class="signout">
         <a href="signout.php"> Sign out </a>
     </div>

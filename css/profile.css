@@ -90,32 +90,15 @@ body {
 	left: 27%;
 }
 
-.welcome h2{
-    position:fixed; 
-	text-decoration: none;
-    font-family: Arial, sans-serif;
-    color: var(--dark);
+.user-info {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    gap: 1%; /* Add 1% spacing between the username and badge */
 }
 
-.welcome .badge{
-    position: fixed;
-    top: 33%;
-	left: 27%; 
-    width: 13%;
-    padding-left: 2rem;
-}
-
-.welcome .badge img{
-    padding-left: 2rem;
-    display: block;
-	width: 13%;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-    -moz-user-drag: none;
-    -khtml-user-drag: none;
-    -webkit-user-drag: none;
+.badge img {
+    max-width: 100%; /* Adjust the maximum width of the badge image to 100% */
+    /* Add any additional styling you want for the badge image */
 }
 
 .signout{ 
