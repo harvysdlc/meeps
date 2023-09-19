@@ -21,10 +21,10 @@ if(isset($_POST['searchbutton'])){
             $searchresult[] = $row; // Store each result in the array
         }
     }
-} else {
-    echo '';
+} 
+else if(!isset($_POST['searchbuton'])) {
+    echo "";
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -69,8 +69,11 @@ if(isset($_POST['searchbutton'])){
                 echo "<p>● {$result["name"]} (@{$result['username']})</p>";
             }  
         } 
-        else {
+        else if(empty($searchresult)){
             echo '<p><b>No results found!</b></p>';
+        }
+        else {
+            echo "";
         }
         ?> </p> <br>
     </div>
