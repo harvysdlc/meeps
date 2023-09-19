@@ -61,7 +61,7 @@ else{
                 // Display the results
                 foreach ($searchresult as $result) {
                     // Create a clickable link to the user's profile page
-                    echo "<p>● <a href='profile.php?id={$idresult["id"]}'>{$idresult["name"]} (@{$idresult['username']})</a></p>";
+                    echo "<p>● <a href='profile.php?id={$result["id"]}'>{$result["name"]} (@{$result['username']})</a></p>";
                 }
             } else {
                 echo '<p><b>No results found!</b></p>';
